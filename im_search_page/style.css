@@ -1,1 +1,45 @@
-
+.boxed {
+  border: 3px groove red;
+  width: 500px;
+  height: 200px;
+  column-rule-color: grey;
+}
+h1{
+  color: #CC3300;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: .67em 0;
+}
+input {
+    padding: 10px;
+    width: 218px;
+    margin: 5px;
+    display: block;
+    margin: .55em 0;
+  }
+  label {
+    font-style: normal;;
+    font-size: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1.5em;
+    cursor: pointer;
+    font-size: 100%;
+    color: #5B5B5B;
+    Font-family: "Open Sans", sans-serif;
+    margin: .67em 0;
+  }
+button {
+    border-bottom-color: grid;
+    color: color: rgba(255, 0, 0, 0.5);
+    border-bottom-style: groove;
+    height: 35px;
+    margin: .67em 0;
+}
+select{
+    margin: .67em 0;
+}
