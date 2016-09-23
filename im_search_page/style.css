@@ -1,8 +1,9 @@
 .boxed {
-  border: 3px groove red;
-  width: 500px;
+  border: 3px groove #666666;
+  width: 400px;
   height: 200px;
-  column-rule-color: grey;
+
+  background-color: #E5E5E5;
 }
 h1{
   color: #CC3300;
@@ -20,7 +21,7 @@ input {
     margin: .55em 0;
   }
   label {
-    font-style: normal;;
+    font-style: normal;
     font-size: 20px;
     display: block;
     margin: 0;
@@ -34,12 +35,36 @@ input {
     margin: .67em 0;
   }
 button {
-    border-bottom-color: grid;
+    border-bottom-color:#666666;
     color: color: rgba(255, 0, 0, 0.5);
     border-bottom-style: groove;
-    height: 35px;
+    height: 34px;
     margin: .67em 0;
 }
 select{
     margin: .67em 0;
-}
+    width: 170px;
+    height: 30px;
+    border: 1px solid #CCC;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 1px 1px 6px #CCC;
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    transform: rotateZ(0);
+    min-width: 14em;
+    min-height: 2.7142em;
+    background: #FFF;
+    display: inline-block;
+    padding: .78571429em 2.1em .78571429em 1em;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,width .1s ease;
+    transition: box-shadow .1s ease,width .1s ease;
+    }
