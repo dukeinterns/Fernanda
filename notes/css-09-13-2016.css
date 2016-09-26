@@ -1,0 +1,44 @@
+label{
+  font-size: 1.5em;
+}
+
+.login{
+  -webkit-transition: border-bottom-color 0.4s ease-in-out;
+  transition: border-bottom-color 0.4s ease-in-out;
+  transition: margin-left 0.4s ease-in-out;
+
+
+
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 5px solid;
+  border-bottom-color:  #0680CD;
+  /*margin-left: 10px;*/
+}
+
+.login:focus{
+  border-bottom-color: #A1B70D;
+  margin-left:20px;
+}
+
+.login-field{
+margin-top: 30px;
+}
+
+button{
+  font-size: 1.5em;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #262626;
+  color: whitesmoke;
+  border: none;
+}
+
+button:hover{
+  background-color: #A1B70D ;
+}
+
+button:focus{
+  background-color: #A1B70D ;
+}
+
