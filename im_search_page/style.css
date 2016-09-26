@@ -2,69 +2,49 @@
   border: 3px groove #666666;
   width: 400px;
   height: 200px;
-
   background-color: #E5E5E5;
+  margin-left: 25px
 }
 h1{
-  color: #CC3300;
+  color: #5B5B5B;
   font-family: "Open Sans", sans-serif;
   font-size: 2.5em;
   line-height: 1.4;
   font-weight: 400;
-  margin: .67em 0;
+  margin: .67em 25px;
 }
 input {
     padding: 10px;
     width: 218px;
     margin: 5px;
     display: block;
-    margin: .55em 0;
+    margin: .55em 25px;
+    padding-right: 107px
   }
   label {
-    font-style: normal;
-    font-size: 20px;
     display: block;
-    margin: 0;
-    padding: 0;
+    margin: 25px;
+    padding: 6px;
+    padding-left: 1.5px
     width: 100%;
     height: 1.5em;
     cursor: pointer;
-    font-size: 100%;
+    font-size: 20px;
     color: #5B5B5B;
     Font-family: "Open Sans", sans-serif;
-    margin: .67em 0;
+    font-weight: bold;
+    margin: .67em 25px;
   }
 button {
     border-bottom-color:#666666;
     color: color: rgba(255, 0, 0, 0.5);
-    border-bottom-style: groove;
     height: 34px;
-    margin: .67em 0;
+    margin: .67em 25px;
 }
 select{
-    margin: .67em 0;
-    width: 170px;
-    height: 30px;
-    border: 1px solid #CCC;
-    font-weight: 200;
-    font-size: 15px;
-    font-family: "Open Sans", sans-serif;
-    box-shadow: 1px 1px 6px #CCC;
-    cursor: pointer;
-    word-wrap: break-word;
-    line-height: 1em;
-    white-space: normal;
-    outline: 0;
-    transform: rotateZ(0);
-    min-width: 14em;
-    min-height: 2.7142em;
-    background: #FFF;
-    display: inline-block;
-    padding: .78571429em 2.1em .78571429em 1em;
-    color: rgba(0,0,0,.87);
-    box-shadow: none;
-    border: 1px solid rgba(34,36,38,.15);
-    border-radius: .28571429rem;
-    -webkit-transition: box-shadow .1s ease,width .1s ease;
-    transition: box-shadow .1s ease,width .1s ease;
-    }
+  margin-left: 25px;
+  padding-bottom-top: 5px
+  Font-family: "Open Sans", sans-serif;
+  font-size: 18.5px
+
+}
