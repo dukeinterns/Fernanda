@@ -1,7 +1,7 @@
 .boxed {
   border: 3px groove #666666;
   width: 400px;
-  height: 200px;
+  /*height: 200px;*/
   background-color: #E5E5E5;
   margin-left: 25px
 }

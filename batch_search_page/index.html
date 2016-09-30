@@ -1,0 +1,25 @@
+<div class="idms-form">
+  <h2>Create DUIDs From CSV</h2>
+   <div>
+     <p class="batch-dir-toggle">Show Instructions</p>
+     <div class="batch-directions">
+      <p>- The Batch DUID creation tool accepts a csv file. The CSV file should have the following Headers:</p>
+      <p>- firstName,lastName,dobMonth,dobDay,dobYear,email</p>
+      <p>- Name fields should be mixed case.</p>
+      <p>- Birth Day and Month should be two digits e.g. 01, 07, 22</p>
+      <p>- Birth year should be four digits e.g. 1984</p>
+      <p>- Selecting "Dry Run" will not actually create any duids and instead provide a "what if" scenario</p>
+     </div>
+    <div class="clearfix"></div>
+     <label>Email Results ToL</label>
+     <input type="text"/>
+   </div>
+    <input id="attachment" name="attachment" type="file" />
+    <div>
+      <label>Dry Run</label>
+      <input type="checkbox"/>
+    </div>
+    <div class="form-submit">
+      <input type="submit" value="Save changes"/>
+    </div>
+</div>
